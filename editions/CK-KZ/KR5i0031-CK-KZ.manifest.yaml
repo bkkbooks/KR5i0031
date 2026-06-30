@@ -1,0 +1,37 @@
+canonical_identifier: bkk:krp/KR5i0031/CK-KZ/v1
+canonical_location: https://kanripo.org/bkk/KR5i0031/CK-KZ/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 黃帝陰符經
+  date: '2015-08-29 17:49:35.405443'
+  source:
+    repository: kanripo
+    path: KR5i0031
+  image_base_urls:
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+  edition:
+    short: CK-KZ
+    label: 【重刊道藏輯要】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 1, filename: KR5i0031_001-CK-KZ.yaml, hash: 'sha256:19069189bac472dfae54d17853e6c89d983e29fac228b66056be93548d29a495'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR5i0031_001-CK-KZ.markers.yaml, hash: 'sha256:c1e06e22f0dca07bcda523b6b38bc9b12c7f2255a90d027c506f1632e8d139ad'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: CK-KZ_KR5i0031_01p023a
+    span:
+    - body
+    - 0
+    - 12316
+  label: juan 001
+  type: section
+  level: 1
+hash: sha256:17cc58c0226ecc351fa4ba36e0c1e279f4a5ae83990e6ba70c8bca625b718a8d
